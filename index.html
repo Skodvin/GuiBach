@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Skoddy</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://github.com/IanLunn/Hover/blob/master/css/hover.css">
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+
+    <div class="row mt-5">
+        <div class="col-md-5 serverStatus">
+            <div class="row">
+                <div class="col-12 text-center">
+                    Sensor 1
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 statusBoks">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            VOIP
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center" id="statusBakgrunn">
+                            <span id="status">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Transfer</span>
+                            <span class="float-right" id="transfer">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Bandwidth: </span>
+                            <span class="float-right" id="bandwidth">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Jitter: </span>
+                            <span class="float-right" id="jitter">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Pakkketap: </span>
+                            <span class="float-right" id="packetLoss">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Pakketap i prosent: </span>
+                            <span class="float-right" id="packetLossPerc">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 statusBoks">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            WEB
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            OK
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 1</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 2</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 3</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 4</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 5</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-5 serverStatus">
+            <div class="row">
+                <div class="col-12 text-center">
+                    Sensor 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            VOIP
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center" id="statusBakgrunn">
+                            <span id="status">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 1</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 2</span>
+                            <span class="float-right" id="eks">0 <i class="fas fa-times-circle" style="color:rgba(255,0,0,0.53);"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 3</span>
+                            <span class="float-right" id="eks">0 <i class="fas fa-check-circle" style="color:rgba(0,128,0,0.53);"></i></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 4</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 5</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            WEB
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            OK
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 1</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 2</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 3</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 4</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <span>Eksempel 5</span>
+                            <span class="float-right" id="eks">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--<script>
+$(document).ready(function(){
+    console.log("kjor")
+  $.ajaxSetup ({ cache: false });
+  setInterval(function(){
+     $("#p1").load("test.txt #p1");
+    }, 1000);
+});
+</script>
+-->
+
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script language="Javascript" src="js/updateRealTime.js"></script>
+
+<!--<script>
+    $.ajaxSetup({ cache: false });
+    setInterval(function() {
+     $('#test').load("test.txt #p1");
+     $('#test2').load("test.txt #p2");
+    }, 500);
+  });
+
+</script>
